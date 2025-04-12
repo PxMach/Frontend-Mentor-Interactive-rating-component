@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Overpass", sans-serif;
+}
+
+body {
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 15px;
+   background-color: hsl(216, 12%, 8%);
+   color: #fff;
+}
+
+.container {
+   background-color: hsl(213, 19%, 18%);
+   margin-block: 13em;
+   border-radius: 15px;
+   width: 380px;
+   height: 340px;
+   padding: 20px;
+}
+.container img {
+   background-color: hsl(214, 20%, 25%);
+   border-radius: 50%;
+   padding: 10px;
+   margin-bottom: 20px;
+}
+.container h2 {
+   margin-bottom: 20px;
+}
+.container p {
+   color: hsl(210, 6%, 58%);
+   margin-bottom: 20px;
+}
+.container .buttons {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 100%;
+   margin-bottom: 20px;
+}
+.buttons button {
+   margin-right: 20px;
+   padding: 10px;
+   border: none;
+   background-color: hsl(217, 17%, 25%);
+   color: hsl(217, 12%, 63%);
+   border-radius: 50%;
+   width: 45px;
+   font-size: 20px;
+   align-items: center;
+   text-align: center;
+   cursor: pointer;
+}
+.buttons button:focus {
+   background-color: #fff;
+   color: hsl(216, 12%, 8%);
+}
+.buttons button:hover {
+   background-color: hsl(25, 97%, 53%);
+}
+.container > button {
+   width: 100%;
+   padding: 10px;
+   color: hsl(216, 12%, 8%);
+   background-color: hsl(25, 97%, 53%);
+   border-radius: 20px;
+   border: none;
+   text-align: center;
+   align-items: center;
+   font-size: 20px;
+   font-weight: 600;
+   cursor: pointer;
+}
+.container > button:hover {
+   background-color: #fff;
+}
+/*   Thank you state start */
+.container-rate {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: hsl(213, 19%, 18%);
+   margin-block: 13em;
+   border-radius: 15px;
+   width: 380px;
+   height: 350px;
+   padding: 20px;
+}
+.container-rate img {
+   width: 150px;
+   margin-bottom: 30px;
+}
+.container-rate p:first-of-type {
+   background-color: hsl(214, 20%, 25%);
+   color: hsl(25, 97%, 53%);
+   padding: 5px 20px 5px;
+   border-radius: 20px;
+   margin-bottom: 20px;
+   font-size: 13px;
+}
+.container-rate h2 {
+   margin: 20px 0 20px;
+}
+.container-rate p:last-of-type {
+   color: hsl(210, 6%, 58%);
+   margin-bottom: 20px;
+}
