@@ -105,9 +105,15 @@ body {
    font-size: 13px;
 }
 .container-rate h2 {
-   margin: 20px 0 20px;
+   margin: 10px 0 0;
 }
 .container-rate p:last-of-type {
    color: hsl(210, 6%, 58%);
    margin-bottom: 20px;
+   white-space: pre-line;
+   text-align: left;
+}
+.container-rate p:last-of-type span {
+   display: block;
+   text-align: center;
 }
