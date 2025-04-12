@@ -52,7 +52,7 @@ body {
    color: hsl(217, 12%, 63%);
    border-radius: 50%;
    width: 45px;
-   font-size: 20px;
+   font-size: 18px;
    align-items: center;
    text-align: center;
    cursor: pointer;
@@ -80,9 +80,14 @@ body {
 .container > button:hover {
    background-color: #fff;
 }
+@media (max-width: 375px) {
+   .container {
+      width: 350px;
+   }
+}
 /*   Thank you state start */
 .container-rate {
-   display: flex;
+   display: none;
    flex-direction: column;
    align-items: center;
    background-color: hsl(213, 19%, 18%);
@@ -105,15 +110,16 @@ body {
    font-size: 13px;
 }
 .container-rate h2 {
-   margin: 10px 0 0;
+   margin: 10px 0 20px;
 }
 .container-rate p:last-of-type {
    color: hsl(210, 6%, 58%);
    margin-bottom: 20px;
-   white-space: pre-line;
-   text-align: left;
 }
-.container-rate p:last-of-type span {
-   display: block;
-   text-align: center;
+
+@media (max-width: 400px) {
+   .container-rate {
+      width: 350px;
+      height: 350px;
+   }
 }
