@@ -116,6 +116,7 @@ body {
 .container-rate p:last-of-type {
    color: hsl(210, 6%, 58%);
    margin-bottom: 20px;
+   text-align: center
 }
 
 @media (max-width: 400px) {
