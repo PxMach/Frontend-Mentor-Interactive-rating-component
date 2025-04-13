@@ -37,14 +37,14 @@ body {
    color: hsl(210, 6%, 58%);
    margin-bottom: 20px;
 }
-.container .buttons {
+.container .buttons-box {
    display: flex;
    flex-direction: row;
    align-items: center;
    width: 100%;
    margin-bottom: 20px;
 }
-.buttons button {
+.buttons-box button {
    margin-right: 20px;
    padding: 10px;
    border: none;
@@ -57,11 +57,11 @@ body {
    text-align: center;
    cursor: pointer;
 }
-.buttons button:focus {
+.buttons-box button:focus {
    background-color: #fff;
    color: hsl(216, 12%, 8%);
 }
-.buttons button:hover {
+.buttons-box button:hover {
    background-color: hsl(25, 97%, 53%);
 }
 .container > button {
@@ -123,3 +123,12 @@ body {
       height: 350px;
    }
 }
+/* <!-- <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style> --> */

@@ -4,23 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
   <link rel="stylesheet" href="src/style.css" />
   <script src="src/script.js" defer></script>
   <title>Frontend Mentor | Interactive rating component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <!-- <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style> -->
 </head>
 
 <body>
@@ -32,14 +20,14 @@
       Please let us know how we did with your support request. All feedback is
       appreciated to help us improve our offering!
     </p>
-    <div class="buttons">
-      <button type="button" aria-label="Rate 1">1</button>
-      <button type="button" aria-label="Rate 2">2</button>
-      <button type="button" aria-label="Rate 3">3</button>
-      <button type="button" aria-label="Rate 4">4</button>
-      <button type="button" aria-label="Rate 5">5</button>
+    <div class="buttons-box">
+      <button type="button" class="button" aria-label="Rate 1">1</button>
+      <button type="button" class="button" aria-label="Rate 2">2</button>
+      <button type="button" class="button" aria-label="Rate 3">3</button>
+      <button type="button" class="button" aria-label="Rate 4">4</button>
+      <button type="button" class="button" aria-label="Rate 5">5</button>
     </div>
-    <button type="submit">Submit</button>
+    <button type="submit" id="submit">Submit</button>
   </div>
 
   <!-- Rating state end -->
@@ -49,7 +37,7 @@
     <img src="images/illustration-thank-you.svg" alt="illustration thank you" />
     <p>
       You selected
-      <!-- Add rating here -->
+      <span></span>
       out of 5
     </p>
     <h2>Thank you!</h2>
